@@ -1,0 +1,43 @@
+body {
+    background: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card.image-container {
+    position: relative;
+}
+
+.card.image-container img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    margin-top: 20px;
+}
+
+div h3 {
+    font: 1em/1.2 Georgia, serif;
+    margin-bottom: 10px;
+}
+
+div a {
+    display: inline-block;
+    background: rgb(0, 153, 0);
+    color: white;
+    text-decoration: none;
+    border-color: rgb(0, 153, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
