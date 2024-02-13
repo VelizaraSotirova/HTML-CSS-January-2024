@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 2em;
+    background-color: grey;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 2em 1em;
+    gap: 1.5em;
+}
+
+.gallery li {
+    list-style: none outside;
+    border: 6px solid black;
+    flex: 0 0 250px;
+    padding: 0.5em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 
+        0 0 1em rgba(0, 0, 0, 0.3),
+        0 0 0.3em rgba(0, 0, 0, 0.4) inset;
+}

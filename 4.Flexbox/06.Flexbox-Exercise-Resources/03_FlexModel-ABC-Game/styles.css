@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 15vw;
+    height: 35em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 2em auto;
+}
+
+div span {
+    border: 1px solid black;
+    padding: 1.1em 2em;
+    text-align: center;
+}
+
+.s {
+    order: 1;
+}
+
+.e {
+    order: 2;
+}
+
+.m {
+    order: 3;
+}
+
+.a {
+    order: 4;
+}
+
+.n {
+    order: 5;
+}
+
+.t {
+    order: 6;
+}
+
+.i {
+    order: 7;
+}
+
+.c {
+    order: 8;
+}
+
+.H {
+    order: 9;
+}
+
+.T {
+    order: 10;
+}
+
+.M {
+    order: 11;
+}
+
+.L {
+    order: 12;
+}
