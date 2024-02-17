@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+}
+table {
+   border-collapse: collapse;  
+   /*
+ adjacent cells have shared borders
+   */
+   margin: 0 auto;
+}
+thead th,
+tbody td {
+    border: 2px solid #ccc;
+    padding: 0.5em;
+}
+thead tr th {
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: beige;
+}
+@media (max-width:360px) {
+    table,
+    thead,
+    tr,
+    th,
+    td {
+        display: block;
+    }
+    thead {
+        display: none;
+    }
+    tbody td::before {
+        content: attr(data-title);
+        font-weight: bold;
+        padding-right: 0.5em;
+    }
+}
